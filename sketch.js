@@ -25,6 +25,9 @@ function setup() {
    for (var k = 0; k <=width; k = k + 80) {
 		divs.push(new Ground(k, height-divHeight/2, 10, divHeight));
    }
+   for (var k = 0; k <=width; k = k + 480) {
+	divs.push(new Ground(k,divHeight, 10, 500));
+}
 
 	for(var j = 40; j <= width; j = j + 50){
 		plinkos.push(new Plinko(j,155));
