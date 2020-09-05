@@ -1,2 +1,2 @@
 # Plinking-Balls
-it's plinko time
+It's Plinko
